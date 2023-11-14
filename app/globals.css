@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@300;700&family=Inter:wght@600;700&display=swap');
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+.logo {
+  font-family: 'Inter Tight', sans-serif;
+}
+
+.services {
+  font-family: 'Inter', sans-serif;
+}
