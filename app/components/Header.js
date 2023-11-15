@@ -31,12 +31,18 @@ const Header = () => {
               </a>
             </nav>
           </div>
-          <div className="hidden lg:flex lg:shrink-0 lg:items-center">
-            <div className="w-full md:w-auto flex items-center justify-center md:justify-center">
-              <div className="-mb-4 md:flex items-center md:space-x-6">
-                <div className=""></div>
-              </div>
-            </div>
+        </div>
+        <div className="hidden lg:flex lg:shrink-0 lg:items-center right">
+          <div className="flex items-center space-x-2">
+            <a href="/" className="text-neutral-black p-4">
+              Login
+            </a>
+            <button
+              type="button"
+              className="text-white bg-black rounded-full px-6 py-2"
+            >
+              Get started
+            </button>
           </div>
         </div>
       </div>
