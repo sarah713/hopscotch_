@@ -12,10 +12,11 @@ const Hero = () => {
               </h2>
             </div>
           </div>
-          <div className="relative w-full shrink-0 md:max-w-[40%] xl:max-w-[513px] bg-inherit z-20 bg-slate-100">
+          <div className="relative w-full shrink-0 md:max-w-[40%] xl:max-w-[513px]  z-20 ">
             <Image src="heroimg.svg" width={1060} height={1196} />
-            <div className="absolute right-[-9rem] top-0 w-full max-w-[521px] z-10">
-              <Image src="hands.png" width={360} height={200} />
+            <div className="absolute right-[-9rem] top-0 w-full max-w-[521px] -z-10 bg-purple-200">
+              {/* <Image src="/hands.png" width={360} height={200} /> */}
+              <div className="bg-purple-100 w-64 h-32 border "></div>
             </div>
           </div>
         </div>
